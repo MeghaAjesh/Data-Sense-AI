@@ -5,7 +5,7 @@ import {
 } from "recharts";
 
 const COLORS = ["#8b5cf6", "#06b6d4", "#10b981", "#f59e0b", "#ef4444", "#ec4899"];
-
+// BarChartComponent
 export function BarChartComponent({ data, xKey, yKey, title }) {
   return (
     <div className="bg-gray-900 rounded-2xl p-5">
